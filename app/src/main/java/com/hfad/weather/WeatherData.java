@@ -60,7 +60,7 @@ public class WeatherData {
     }
 
     public String getDate() {
-        SimpleDateFormat ft = new SimpleDateFormat("EEEE");
+        SimpleDateFormat ft = new SimpleDateFormat("EEEE, MMM d");
 //        Log.d("date in format", ft.format(date));
         return ft.format(date);
     }

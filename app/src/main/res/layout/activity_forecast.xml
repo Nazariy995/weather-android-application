@@ -17,11 +17,19 @@
         android:id="@+id/forecast_city"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+    <View
+        android:id="@+id/separatorLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/forecast_city"
+        android:background="@android:color/black"
+        android:padding="5dp" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/forecast_results"
-        android:layout_below="@+id/forecast_city"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/separatorLine"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

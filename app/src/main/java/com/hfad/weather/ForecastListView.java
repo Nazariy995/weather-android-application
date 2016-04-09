@@ -38,8 +38,10 @@ public class ForecastListView extends Activity {
         Intent intent = getIntent();
         //Get city_name from the last view
         city_name = intent.getStringExtra("city");
+        String first_letter = city_name.substring(0,1);
+        city_name = first_letter.toUpperCase() + city_name.substring(1,city_name.length());
         TextView city_tag = (TextView)findViewById(R.id.forecast_city);
-        city_tag.setText(city_name);
+        city_tag.setText(city_name + " 16 Day Forecast");
         //Get forecast data in a separate thread
         GetForecast(city_name);
     }

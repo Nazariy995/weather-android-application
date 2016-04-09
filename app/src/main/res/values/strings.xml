@@ -2,8 +2,8 @@
     <string name="app_name">Weather</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_forecast">Forecast</string>
-    <string name="day_temp">Day</string>
-    <string name="night_temp">Night</string>
-    <string name="morn_temp">Morning</string>
-    <string name="eve_temp">Eve</string>
+    <string name="day_temp">Day: </string>
+    <string name="night_temp">Night: </string>
+    <string name="morn_temp">Morning: </string>
+    <string name="eve_temp">Evening: </string>
 </resources>
